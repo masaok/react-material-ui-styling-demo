@@ -8,6 +8,9 @@ import Avatar from '@material-ui/core/Avatar'
 
 const useStyles = makeStyles(theme => ({
   root: {
+    display: 'flex',
+    flex: 1,
+    flexDirection: 'column',
     backgroundColor: 'lightblue',
     height: '100vh'
   },
@@ -18,7 +21,7 @@ const useStyles = makeStyles(theme => ({
     flexDirection: 'row',
     flexGrow: 1,
     // height: '300px',
-    height: theme.spacing(36), // default increments of 8 units
+    maxHeight: theme.spacing(300 / 8), // default increments of 8 units
     backgroundColor: 'lightgreen'
   },
 
