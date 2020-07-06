@@ -7,7 +7,7 @@ import Resume from './pages/Resume'
 
 const useStyles = makeStyles(theme => ({
   root: {
-    backgroundColor: 'red'
+    // backgroundColor: 'red'
   }
 }))
 
