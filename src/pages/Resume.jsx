@@ -1,24 +1,21 @@
 import React from 'react'
-import './App.css'
 
 import { makeStyles } from '@material-ui/core/styles'
 
-import Resume from './pages/Resume'
-
 const useStyles = makeStyles(theme => ({
   root: {
-    backgroundColor: 'red'
+    backgroundColor: 'blue'
   }
 }))
 
-const App = props => {
+const Resume = props => {
   const classes = useStyles(props)
-
   return (
     <div className={classes.root}>
-      <Resume />
+      <div>TOP</div>
+      <div>BOTTOM</div>
     </div>
   )
 }
 
-export default App
+export default Resume
